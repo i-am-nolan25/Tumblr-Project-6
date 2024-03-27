@@ -17,7 +17,7 @@ The following **required** functionalities are completed:
 
 ## Video Walkthrough
 
-
+https://github.com/i-am-nolan25/Tumblr-Project-6/assets/113712250/507187e3-e736-4b87-9857-729a83cef966
 
 ## License
 
