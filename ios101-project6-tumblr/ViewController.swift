@@ -16,6 +16,8 @@ class ViewController: UIViewController, UITableViewDataSource {
         super.viewDidLoad()
         
         navigationController?.navigationBar.prefersLargeTitles = true
+        // Change navigation bar title color
+        navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
 
         tableView.delegate = self
         tableView.dataSource = self

@@ -2,7 +2,7 @@
 //  DetailViewController.swift
 //  ios101-project6-tumblr
 //
-//  Created by Naing Oo Lwin on 3/26/24.
+//  Created by Naing Oo Lwin on 4/2/24.
 //
 
 import UIKit
@@ -16,6 +16,9 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Change navigation bar title color
+        navigationController?.navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
         
         navigationItem.largeTitleDisplayMode = .never
         
